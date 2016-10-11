@@ -20,6 +20,11 @@ ul{
   list-style-image: url("https://maxcdn.icons8.com/Color/PNG/24/Plants/chocolate_tree-24.png");
 }
 
+span{
+    font-weight: bold;
+
+}
+
 .header{
   font-size: 2em;
   background-color: #1122ee;
@@ -28,29 +33,32 @@ ul{
   margin-right: 20px;
   text-align: center;
   color: white;
-  border-radius: 50px;
 }
 
-.container{
+/*.container{
   display: inline-block;
-  background-color: #9bf;
+  
   margin: 20px;
-}
+}*/
 
 .navbar{
-  position: relative;
+  position: fixed;
   float: left;
-  margin: 10px;
-  border: 2px solid black;
+  margin: 20px;
+  /*border: 2px solid black;*/
+  background-color: #9bf;
+  padding: 5px;
+    z-index: 1;
 }
 
 .main{
   position: relative;
-  margin-left: 10px;
+  margin: 20px;
+  margin-left: 160px;
   padding: 5px;
   /*border: 2px solid black;*/
-  float: right;
   text-align: justify;
+  background-color: #9bf;
 }
 
 .footer{
